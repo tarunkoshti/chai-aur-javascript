@@ -46,3 +46,24 @@ console.log(booleanIsLoggedIn)    // false
 
 // falsy value 0, false, null, undefined, NaN => false
 // expect these => true
+
+
+/******************* operations ********************/
+
+let value = 3
+let negvalue = -value
+console.log(negvalue)
+
+console.log(1 + "2")
+console.log("1" + 2)
+console.log(1 + -'2')
+console.log(1 + +'2')
+console.log(-"1" + 2)
+console.log(+"1" + 2)
+console.log("1" + 2 + 2)
+console.log(1 + 2 + "2")
+console.log(+true) // 1
+console.log(-true) // -1
+console.log(-false) // -0
+
+console.log(isNaN(100))
