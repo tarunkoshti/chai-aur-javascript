@@ -1,14 +1,14 @@
 let age = "21"
-let score = "21a" 
+let score = "21a"
 
 console.log(typeof age)
-console.log(typeof(age))
+console.log(typeof (age))
 
 let ageInNumber = Number(age)
 console.log(typeof ageInNumber)
 
 let scoreInNumber = Number(score)
-console.log(typeof(scoreInNumber)) // Number
+console.log(typeof (scoreInNumber)) // Number
 console.log(scoreInNumber)    // NaN
 
 let a = null
@@ -25,7 +25,7 @@ let c = true
 let cInNumber = Number(c)
 console.log(typeof cInNumber)  // Number
 console.log(cInNumber)  // 1         for c = false o/p 0 
-                                    //  for c = "tarun" o/p NaN
+//  for c = "tarun" o/p NaN
 
 // if we try to convert these to Number we will get type Number but value will no be a number
 // "33" => 33
