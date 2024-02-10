@@ -15,7 +15,7 @@ myArray[2] = false;
 
 // arrays methods
 
-const arr = [0, 1, 2, 3, 4, 5, 6]
+const arr = [0, 1, 2, 3, 4, 5, {key: "value"} , true,[1,4,,6,6,6,]]
 arr.push([3, 5567, 65, 5])
 console.log(arr)
 arr.pop()
