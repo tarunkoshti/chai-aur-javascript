@@ -46,3 +46,17 @@ console.log(v1)
 
 //  to check that property is exists in that object or not return true
 console.log(tinder.hasOwnProperty('isLoggedIn')) 
+
+const mySymbol = Symbol('myKey')
+
+const myObject = {
+    name: "Tarun",
+    age: 20,
+    [mySymbol]: "This is Symbol key value"
+}
+
+myObject['myKey'] = "This is String key value"      // does not overwrite the properties value
+console.log(myObject['myKey'])      		// This is String key value
+console.log(myObject[mySymbol])    			// This is Symbol key value
+
+console.log(Object.keys(myObject))                  // private property is not enumarable 
