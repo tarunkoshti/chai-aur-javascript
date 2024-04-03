@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10%;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.guide {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+.result {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
