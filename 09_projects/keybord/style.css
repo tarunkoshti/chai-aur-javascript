@@ -1,0 +1,75 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body
+{
+height: 100%;
+width: 100%;
+background: #000;
+}
+
+#insert{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Style for the div with class 'color' */
+.color {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px; /* Add some padding around the content */
+    border-radius: 8px; /* Rounded corners */
+    max-width: 600px; /* Limit the width of the container */
+    margin: 20px auto; /* Center the div horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Style for the table */
+.color table {
+    width: 100%; /* Make the table take up the full width of the container */
+    border-collapse: collapse; /* Remove space between table cells */
+}
+
+/* Style for the table headers */
+.color th {
+    background-color: #4CAF50; /* Green background for headers */
+    color: white; /* White text color */
+    padding: 10px; /* Padding inside table headers */
+    text-align: left; /* Align text to the left */
+    font-weight: bold; /* Bold text for headers */
+}
+
+/* Style for the table rows */
+.color td {
+    padding: 10px; /* Padding inside table cells */
+    border-bottom: 1px solid #ddd; /* Add a border below each cell */
+}
+
+/* Add hover effect for table rows */
+.color tr:hover {
+    background-color: #f1f1f1; /* Light background on hover */
+}
+
+/* Add some space between rows and bottom of table */
+.color tr:last-child td {
+    border-bottom: none; /* Remove border from the last row */
+}
+
+/* Responsive design: Ensure the table adjusts for smaller screens */
+@media screen and (max-width: 600px) {
+    .color table, .color tr, .color th, .color td {
+        display: block; /* Stack the table rows and cells */
+        width: 100%; /* Ensure they take up the full width */
+    }
+    
+    .color th {
+        background-color: #4CAF50;
+        text-align: left;
+    }
+}
+
+
