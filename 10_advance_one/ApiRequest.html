@@ -27,5 +27,31 @@ Value	State	            Description
         }
     }
     xhr.send()
+
+
+  //   function httpGet(theUrl) {
+  //   var xmlHttpReq = new XMLHttpRequest();
+  //   xmlHttpReq.open("GET", theUrl, false); // false for synchronous request, that means The JavaScript code stops executing and waits for the server to respond before moving on to the next line of code. This means the browser is "blocked" and cannot do anything else (including responding to user interactions) until the server sends a response.
+  //   xmlHttpReq.send(null);
+  //   return xmlHttpReq.responseText;
+  // }
+
+  // let result = httpGet(requesURL)
+  // console.log(result)
+
+//   function httpGetAsync(theUrl, callback) {
+//   var xmlHttpReq = new XMLHttpRequest();
+//   xmlHttpReq.onreadystatechange = function () {
+//     if (xmlHttpReq.readyState == 4 && xmlHttpReq.status == 200)
+//       callback(xmlHttpReq.responseText);
+//   };
+//   xmlHttpReq.open("GET", theUrl, true); // true for asynchronous,  that means The JavaScript code does not wait for the server to respond      before moving on to the next line of code. The request is sent to the server, and the browser continues to execute the rest of the code.
+//   xmlHttpReq.send(null);
+// }
+
+// httpGetAsync(requesURL, function(response){
+//     console.log(response)
+//   })
+
 </script>
 </html>
